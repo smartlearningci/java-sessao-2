@@ -1,7 +1,0 @@
-services:
-  dev:
-    build:
-      context: app
-      target: builder
-    volumes:
-      - ./app:/app
